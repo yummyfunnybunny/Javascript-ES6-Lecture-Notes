@@ -249,7 +249,7 @@ boxesArr5.forEach(function(cur) {
 
 // ES6
 //--------
-// use the new and simple 'from' method to transform the 
+// use the new and simple 'from' method to transform the node list into an array
 const boxesArr6 = Array.from(boxes);
 boxesArr6.forEach(cur => cur.style.backgroundColor = 'dodgerblue');
 */
@@ -267,7 +267,7 @@ for (var i = 0; i < boxesArr5.length; i++) {
         boxesArr5[i].textContent = 'I changed to blue!';
 }
 
-// ES6 - 'FOR OF' METHOD
+// ES6 - 'FOR...OF' METHOD
 //-------
 // also using the 'include' method below to test for 'blue' in the classnames we are checking
 for (const cur of boxesArr6) {

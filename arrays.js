@@ -14,6 +14,6 @@ boxesArr5.forEach(function(cur) {
 
 // ES6
 //--------
-// use the new and simple 'from' method to transform the 
+// use the new and simple 'from' method to transform the node list into an array
 const boxesArr6 = Array.from(boxes);
 boxesArr6.forEach(cur => cur.style.backgroundColor = 'dodgerblue');

@@ -1,6 +1,15 @@
 //========================================================================
 // LOOPS IN ES6
 //========================================================================
+/*
+In this example, we're going to loop through some html boxes and change their text content and background color
+*/
+
+// assign the '.box' class to variable 'boxes'
+const boxes = document.querySelectorAll('.box');
+
+// turn the above node-list into an array like so:
+var boxesArr5 = Array.prototype.slice.call(boxes);
 
 // ES5
 //-------
